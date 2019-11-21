@@ -1,0 +1,6 @@
+sudo yum install httpd -y
+sudo service httpd start
+sudo toch /var/www/html/index.html
+sudo chmod 777 /var/www/html/index.html
+sudo echo "this is my application version1" > /var/www/html/index.html
+
